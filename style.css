@@ -21,7 +21,7 @@
 }
 
 body {
-    background: gray;
+    background: lightpink;
 }
 
 /* Layout */
@@ -30,7 +30,7 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: lightcoral;
 }
 
 main img {
