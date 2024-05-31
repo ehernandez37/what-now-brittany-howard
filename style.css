@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 /* CSS Variables */
 :root {
     /* main UI color */
     --plyr-color-main: darkgray;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: rgb(179, 186, 105);
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: "Danfo";
     /* font size of player  */
     --plyr-font-size-time: 16px;
 
@@ -18,7 +19,7 @@
     --plyr-audio-progress-buffered-background:  black;
     --plyr-audio-range-track-background: white;
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-tooltip-color: rgb(244, 181, 181); 
     --plyr-control-icon-size: 16px;
 }
 
@@ -36,11 +37,13 @@ h1{
 
     font-family: "Danfo", serif;
     text-align: center;
+    color: brown;
 
  }
 
 body {
-    background: lightpink;
+    background-image: linear-gradient(70deg, lightpink,coral, teal);
+    /* background: lightpink; */
 }
 
 /* Layout */
@@ -71,6 +74,8 @@ article {
 article section {
     /* keep flex'd child same width */
     flex: 1;
+    font-family: "Caveat", cursive;
+    font-weight: 500;
 }
 
 /* Footer */
