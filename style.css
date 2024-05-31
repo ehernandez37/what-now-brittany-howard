@@ -90,3 +90,20 @@ footer {
     }
 }
 
+a:link{
+
+    font-size: 1em;
+    background: lightcoral;
+    transition: all 1s;
+
+}
+
+a:hover{
+
+    background: lightpink;
+    font-size: 2em;
+ transition: all 1s; 
+
+
+
+}
